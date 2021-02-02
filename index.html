@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch-A-Sketch</title>
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+  </link>
+</head>
+
+<body>
+  <div id="main-container">
+    <div id="BTN-container">
+      <h2>Etch-A-Sketch</h2>
+      <button id="btn-reset" class="BTN">reset</button>
+      <button id="btn-eraser" class="BTN">eraser</button>
+      <button id="btn-wind-color" class="BTN">colors of the wind</button>
+      <button id="btn-black" class="BTN">black</button>
+      <div class="color-picker">
+        <p>Pick a color</p>
+        <input type="color" id="color-picker">
+      </div>
+      <div class="range-n-value">
+        <div id="flex-box">
+        <p>Pick the size</p>
+        <input type="range" min="4" max="100" value="16" id="range">
+        <p class="size">16</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="main-arena">
+
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+
+</html>
